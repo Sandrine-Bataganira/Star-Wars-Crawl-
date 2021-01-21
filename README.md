@@ -11,8 +11,8 @@ The backgroung is a stars image .
 
 ### **The content** 
  
- The paragraph is inclined with the 3D rotation .The text scrolls With keyframes and transform property.
+ The paragraph is inclined with the 3D rotation .The text scrolls With *keyframes* and *transform* property.
  
- ### **The last challenge** 
+ ### **The last Part** 
  
- iN the last part , the stars wars logo is replaced by becode logo and the lorem text is replaced by our own story.
+ iN the last part , the *stars wars* logo is replaced by *Becode* logo and the lorem text is replaced by our own story.
