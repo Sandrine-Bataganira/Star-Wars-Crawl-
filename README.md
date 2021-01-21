@@ -4,7 +4,7 @@
 
 ### **INTRODUCTION**
  
-We created repository called *stars-wars-Crawl*. We added a website base structure . The introduction text name is **Along time ago**.<br/>The paragraph containt a lorem text.
+A repository called *stars-wars-Crawl* was created. We added a website base structure . The introduction text name is **Along time ago**.<br/>The paragraph containt a lorem text.
 
 The backgroung is a stars image .
 
