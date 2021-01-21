@@ -1,0 +1,69 @@
+body{
+    background-image: url("https://i.dlpng.com/static/png/7029915_preview.png");
+}
+p{
+    color: rgb(211, 174, 12);
+    text-align: center;
+}
+h1{
+    color: rgb(15, 28, 146);
+    text-align: center;
+}
+.article{
+    position: relative;
+    transform: perspective(300px) rotateX(20deg);
+    animation-name: story;
+    animation-duration: 15s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}  
+
+    @keyframes story{
+        0%{	  
+            top:100px;	        
+            transform:rotateX(30dg)
+            translateZ(0);
+          
+                }
+        50%{
+            opacity: 1;
+        }
+        100%{	    
+            top:-4000px;	        
+            transform:rotateX(20dg)	        
+        	translateZ(-900px);  
+    
+        }
+
+    }
+    .logo{
+    background-color: transparent;
+    position:relative;
+   
+    margin-left:350px;
+    
+    width: 40%;
+    animation-name: logo;
+    animation-duration: 5s ;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    }
+
+    @keyframes logo {
+        0% {
+            width: 15em;        
+            transform: scale(1);
+            opacity: 0;
+        }	    
+        50% {
+            opacity: 1;
+            width: 15em;      
+        }
+        100% {
+            opacity: 0;
+            transform: scale(0.1);
+            width: 15em;        
+        }
+    }
