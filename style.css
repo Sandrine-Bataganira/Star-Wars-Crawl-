@@ -4,55 +4,70 @@ body{
     
 
 }
+h2{
+    text-align: center;
+    color: rgb(35, 35, 158);
+}
 p{
-    color: rgb(211, 174, 12);
+    color: rgb(201, 165, 21);
     text-align: center;
-    
-
-}
-h1{
-    color: rgb(15, 28, 146);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
-.parent{
-    position: relative;
-    transform: perspective(300px) rotateX(20deg);
-    animation-name: mycrawl;
-    animation-duration: 15s;
-    animation-timing-function: linear;
-    animation-iteration-count:infinite;
-    animation-direction: normal;
-}
+
 
 .article{
+
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    animation-name: article;
+    animation-duration: 5s ;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.story{
     position: relative;
     transform: perspective(300px) rotateX(20deg);
-    animation-name: article;
+    animation-name: story;
     animation-duration: 15s ;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;
-}
+}  
 
-    
-
-@keyframes article{
+@keyframes story{
     0%{
         top:100px;
         transform:rotateX(30dg)
     translateZ(0);
     }
     100%{
-        top:-4000px;
+        top:-700px;
         transform:rotateX(20dg)
-    translateZ(-2500px);
-        
-       
-
+    translateZ(-900px);
+}
+}
+@keyframes article {
+    0% {
+        width: 15em;        
+        transform: scale(1);
+        opacity: 1;
     }
+    50% {
+        opacity: 1;
+        width: 15em;      
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+        width: 15em;        
+    }
+
 
 }
     
