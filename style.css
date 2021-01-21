@@ -1,11 +1,58 @@
 body{
     background-image: url("https://i.dlpng.com/static/png/7029915_preview.png");
+    position:static;
+    
+
 }
 p{
     color: rgb(211, 174, 12);
     text-align: center;
+    
+
 }
 h1{
     color: rgb(15, 28, 146);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+.parent{
+    position: relative;
+    transform: perspective(300px) rotateX(20deg);
+    animation-name: mycrawl;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+}
+
+.article{
+    position: relative;
+    transform: perspective(300px) rotateX(20deg);
+    animation-name: article;
+    animation-duration: 15s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+    
+
+@keyframes article{
+    0%{
+        top:100px;
+        transform:rotateX(30dg)
+    translateZ(0);
+    }
+    100%{
+        top:-4000px;
+        transform:rotateX(20dg)
+    translateZ(-2500px);
+        
+       
+
+    }
+
+}
+    
